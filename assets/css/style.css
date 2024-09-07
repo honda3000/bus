@@ -109,7 +109,10 @@ button {
 }
 
 html {
-  font-family: "Inter", sans-serif;
+  font-family: "Pixelify Sans", sans-serif;
+  font-optical-sizing: auto;
+  
+  font-style:inherit;
   font-size: var(--fs-base); /* base font-size (0.85rem = 13.6px) */
   line-height: 1.8;
   background-image: url("../images/paisaje2.jpg");
