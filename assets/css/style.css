@@ -26,7 +26,7 @@
   --action-secondary: hsl(210, 38%, 95%);
 
   --foreground-primary: hsl(218, 23%, 23%);
-  --foreground-secondary: hsl(216, 15%, 52%);
+  --foreground-secondary: hsl(229, 47%, 25%);
   --foreground-tertiary: hsl(214, 45%, 58%);
 
   --accent: hsl(229, 76%, 66%);
@@ -264,7 +264,8 @@ header .flex-wrapper { display: none; }
 }
 
 .logo-light,
-.logo-dark { display: none; }
+.logo-dark { display: none;
+width: 200px; }
 
 .light-theme .logo-light,
 .dark-theme .logo-dark { display: block; }
